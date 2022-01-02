@@ -1,0 +1,15 @@
+#!/bin/sh
+
+bat() {
+	echo BAT:$(cat /sys/class/power_supply/BAT0/capacity)%
+}
+
+time() {
+	date "+%a %m-%d %T"
+}
+
+while true
+do
+	xsetroot -name "$(bat) $(time)"
+	sleep 1
+done
