@@ -8,8 +8,8 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const int horizpadbar	    = 4;
 static const int vertpadbar 	    = 0;
-static const char *fonts[]          = { "Fira Code:size=14" };
-static const char dmenufont[]       = "Fira Code:size=14";
+static const char *fonts[]          = { "monospace:size=14" };
+static const char dmenufont[]       = "monospace:size=14";
 static const char norm_fg[] 	    = "#070707";
 static const char norm_bg[]	    = "#e8e8e8";
 static const char norm_border[]     = "#ffffff";
